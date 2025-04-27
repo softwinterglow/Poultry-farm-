@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #F4E1C1;
+}
+.logo img{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px; 
+}
+.nav ul li{
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    margin-right: 10px;;
+}
+.nav ul li:hover{
+    background-color: #e0e0e0;
+}
+.hero-section{
+    /* max-width: 800px; */
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 70px;
+   gap: 26px;
+}
+.sushant{
+   font-size: larger;
+   font-weight: 800;
+   font-style: italic;
+   color: dimgrey;
+}
+.wlc-txt{
+    max-width: 400px;
+    font-size: large;
+}
+.services-para{
+    color: gray;
+}
+.services-list{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.prod-title{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.prod-title h1{
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.products{
+    background-color: bisque;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.product-card-img{
+   
+}
+.cart-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   margin-top:5rem;;
+}
+.cart-section h2{
+    display: flex;
+    justify-content: center;
+}
+button{
+    position: relative;
+    left: 79px;
+    padding: 5px 15px;
+    background-color:#fe964d;
+    border: 0px solid transparent;
+    border-radius: 5px; 
+}
+button:hover{
+    background-color: #f4b400;
+    cursor: pointer;
+}
+
+/* shop live poultry section */
+
+.live-poultry-section h1{
+   display: flex;
+   justify-content: center;
+   margin-top: 5rem;
+   font-size: 50px;
+   margin-bottom: 3rem;
+}
+.live-poultry-section{
+  background-color: bisque;
+  margin-top: 30px;
+  margin-bottom: 3.5rem;
+}
+.poultry-shopping-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.poultry-items img{
+  height: 400px;
+  width: 400px;
+ margin-left:2.5rem;
+}
+.poultry-items h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.poultry-items button{
+    position: relative;
+    left: 79px;
+    padding: 13px 23px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.shopping-section2{
+   margin-top: 3rem;
+}
+
+
+.farm-gallery{
+    background-color: bisque;
+}
+.farm-gallery h1{
+  display: flex;
+  justify-content: center;
+
+  font-size: 2.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.gallery-imgs img{
+    width: 300px;
+    height: 300px;
+
+}
+.chicken-health{
+    margin-top: 90px ;
+    
+    background-color: #f4e1c1;
+}
+
+.chicken-health h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-family: inherit;
+}
+.chicken-health p{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.about-health{
+    display: flex;
+  
+}
+.about-health img{
+    width: 700px;
+    height: 650px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.chicken-health-safety{
+    margin: 0 auto;
+}
+
+
+
+.product-card {
+    width: 300px;
+    background-color: #fffdf5;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: #4d3b2f;
+  }
+  
+  .product-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .product-button {
+    padding: 8px 16px;
+    background-color: #f4b400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .product-button:hover {
+    background-color: #d99a00;
+  }
+  
+
+
+
+  /* footer */
+
+
+ 
